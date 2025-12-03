@@ -1,4 +1,3 @@
-# src/train.py  (safe, debug-friendly)
 import os
 import sys
 import argparse
