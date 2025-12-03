@@ -1,0 +1,13 @@
+torch>=1.13
+torchvision
+timm
+albumentations
+opencv-python
+pandas
+scikit-learn
+matplotlib
+wandb
+pyyaml
+Pillow
+# optional detection library (install later if you need detection branch B)
+# ultralytics  # uncomment if using YOLOv8
