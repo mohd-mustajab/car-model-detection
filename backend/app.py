@@ -4,7 +4,6 @@ import sys
 import io
 import traceback
 from typing import List, Tuple
-
 from flask import Flask, request, jsonify, render_template_string
 from PIL import Image
 import numpy as np
@@ -190,6 +189,6 @@ def predict():
 if __name__ == "__main__":
     # Running Flask directly is fine for local dev.
     # In production, use Gunicorn / uWSGI + Nginx.
-    app.run(host="0.0.0.0", port=5000, debug=False)
+    app.run(host="0.0.0.0", port=int(os.environ.get("PORT", 5000)))
 
 
