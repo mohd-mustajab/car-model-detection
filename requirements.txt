@@ -9,5 +9,5 @@ matplotlib
 wandb
 pyyaml
 Pillow
-# optional detection library (install later if you need detection branch B)
-# ultralytics  # uncomment if using YOLOv8
+streamlit
+requests
