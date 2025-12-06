@@ -12,3 +12,4 @@ Start:
 2. Access the API at http://localhost:8000
 3.Run npm start in the frontend/ directory to start the frontend.
 4. Access the frontend at http://localhost:3000
+5. Run streamlit_app.py to start the Streamlit app.
