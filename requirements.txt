@@ -10,5 +10,5 @@ wandb
 pyyaml
 Pillow
 streamlit
-altair>=5.0
+altair<5.0
 requests
