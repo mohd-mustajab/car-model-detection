@@ -10,4 +10,5 @@ wandb
 pyyaml
 Pillow
 streamlit
+altair>=5.0
 requests
