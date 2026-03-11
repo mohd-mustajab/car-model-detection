@@ -12,3 +12,4 @@ Pillow
 streamlit
 altair<5.0
 requests
+protobuf<4.0.0
